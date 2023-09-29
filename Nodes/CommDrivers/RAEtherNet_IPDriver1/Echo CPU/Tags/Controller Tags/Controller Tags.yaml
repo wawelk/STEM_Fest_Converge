@@ -1,0 +1,260 @@
+Name: Controller Tags
+Type: FolderType
+Children:
+- Name: BOOL_IN_0
+  Id: g=e9662e627a932ebe5e8347ebb08f94ee
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_0"
+- Name: BOOL_IN_1
+  Id: g=07cd51bff1ef0f3086ad332a79747bfe
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_1"
+- Name: BOOL_IN_2
+  Id: g=44c83b36833c6681c99a14d299c8b5cd
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_2"
+- Name: BOOL_IN_3
+  Id: g=8b64066d2d3684a0e22532184374bf9a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_3"
+- Name: BOOL_IN_4
+  Id: g=a1d1537293f4cb761fe3a5e3808bb8c3
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_4"
+- Name: BOOL_IN_5
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_5"
+- Name: BOOL_IN_6
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_6"
+- Name: BOOL_IN_7
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_7"
+- Name: BOOL_IN_8
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_8"
+- Name: BOOL_IN_9
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_9"
+- Name: BOOL_IN_10
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "BOOL_IN_10"
+- Name: StopExit
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "StopExit"
+- Name: Send_to_Exit
+  Id: g=53cc342a52d0d1667ea1f0a402a0447a
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Send_to_Exit"
+- Name: TransferLeft
+  Id: g=f71880f0b5f783ab374d11faece4b262
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TransferLeft"
+- Name: ExitCounter
+  Type: COUNTER
+  DataType: COUNTER
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "7160fa78893a672f2f3b2b4072fe9fbe",
+     "Namespace": 7
+    },
+    "Body": {
+     "ACC": 0,
+     "CD": false,
+     "CU": false,
+     "DN": false,
+     "OV": false,
+     "PRE": 0,
+     "UN": false
+    }
+   }
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.ACC"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.CD"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.CU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.OV"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.PRE"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ExitCounter.UN"
+- Name: Start1
+  Id: g=6e8e1e44c23b177241f9dce6fe7df9b9
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Start1"
+- Name: Stop1
+  Id: g=b39e03821bb6a435713331f73c4e6ba6
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Stop1"
+- Name: Start2
+  Id: g=63f8b0b48907a60efd2c2eccadd0260b
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Start2"
+- Name: Stop2
+  Id: g=24069d2b99b8f127a139ff4db5fa09c7
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Value: false
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Stop2"

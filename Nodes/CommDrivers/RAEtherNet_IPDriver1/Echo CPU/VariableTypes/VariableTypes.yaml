@@ -1,0 +1,89 @@
+Name: VariableTypes
+Type: FolderType
+Children:
+- Name: COUNTER
+  Id: g=41c899f54cb2486be7c38a5b0da3ae3c
+  Supertype: TagStructure
+  DataType: COUNTER
+  ValueRank: Any
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "7160fa78893a672f2f3b2b4072fe9fbe",
+     "Namespace": 7
+    },
+    "Body": {
+     "ACC": 0,
+     "CD": false,
+     "CU": false,
+     "DN": false,
+     "OV": false,
+     "PRE": 0,
+     "UN": false
+    }
+   }
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ACC"
+  - Name: CD
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CD"
+  - Name: CU
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "CU"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DN"
+  - Name: OV
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "OV"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Value: 0
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "PRE"
+  - Name: UN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Value: false
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "UN"
