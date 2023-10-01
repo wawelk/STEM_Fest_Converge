@@ -106,6 +106,7 @@ Children:
     DataType: String
     Value: "BOOL_IN_10"
 - Name: StopExit
+  Id: g=8db82a087564c5f0cc7e07ba582e13af
   Type: RAEtherNetIPTag
   DataType: Boolean
   Value: false
@@ -156,6 +157,7 @@ Children:
    }
   Children:
   - Name: ACC
+    Id: g=327c1d26e93b34432245c87601e162d2
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
