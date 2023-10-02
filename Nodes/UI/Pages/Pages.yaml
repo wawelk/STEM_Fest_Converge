@@ -21,7 +21,7 @@ Children:
   Supertype: Page
   ReferenceType: HasComponent
   Children:
-  - Name: Rectangle2
+  - Name: Rectangle5
     Type: Rectangle
     Children:
     - Name: BorderColor
@@ -33,7 +33,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#ffffff00"
+      Value: "#ff0000"
     - Name: BorderThickness
       Type: BaseDataVariableType
       DataType: Size
@@ -43,7 +43,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 0.0
     - Name: HitTestVisible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -72,8 +72,12 @@ Children:
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
-      ModellingRule: Optional
       Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=07cd51bf-f1ef-0f30-86ad-332a79747bfe}"
     - Name: Enabled
       Type: BaseDataVariableType
       DataType: Boolean
@@ -88,12 +92,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 281.0
+      Value: 428.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 236.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -108,12 +112,124 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 210.0
+      Value: 10.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 80.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+  - Name: Rectangle2
+    Type: Rectangle
+    Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#000000"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ff0000"
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: CornerRadius
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: HitTestVisible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: MoveTarget
+      Type: NodePointer
+      DataType: NodeId
+      ModellingRule: Optional
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":71,"Namespace":3}
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        ModellingRule: Optional
+        Value: 2
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=e9662e62-7a93-2ebe-5e83-47ebb08f94ee}"
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 428.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 146.0
+    - Name: RightMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -141,7 +257,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Color
       ModellingRule: Optional
-      Value: "#ffffff00"
+      Value: "#ff0000"
     - Name: BorderThickness
       Type: BaseDataVariableType
       DataType: Size
@@ -151,7 +267,7 @@ Children:
       Type: BaseDataVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 10.0
+      Value: 0.0
     - Name: HitTestVisible
       Type: BaseDataVariableType
       DataType: Boolean
@@ -180,8 +296,12 @@ Children:
     - Name: Visible
       Type: BaseDataVariableType
       DataType: Boolean
-      ModellingRule: Optional
       Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=a1d15372-93f4-cb76-1fe3-a5e3808bb8c3}"
     - Name: Enabled
       Type: BaseDataVariableType
       DataType: Boolean
@@ -196,12 +316,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 51.0
+      Value: 310.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 30.0
+      Value: 146.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -216,12 +336,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 210.0
+      Value: 10.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 360.0
+      Value: 80.0
     - Name: HorizontalAlignment
       Type: BaseVariableType
       DataType: HorizontalAlignment
@@ -237,6 +357,1418 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
+  - Name: ConveyorRollerStraightTop1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 101.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorRollerStraightTop2
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 210.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorRollerStraightTop6
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 548.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorRollerStraightTop5
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 439.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 220.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorRollerStraightTop4
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 548.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorRollerStraightTop3
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: RollerColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#cdcccc"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
+    - Name: Roller
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#cdcccc"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../RollerColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 100.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.27999877929688
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 100.0
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.27999877929688
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 439.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorBeltStraightTop2
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: BeltColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#808285"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 99.99800109863281
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.08699798583984
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorBeltStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: Belt
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.68980598449707
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.62139129638672
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#808285"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BeltColor"
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay.svg"
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#000000"
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: CornerRadius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: HitTestVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: MoveTarget
+          Type: NodePointer
+          DataType: NodeId
+          ModellingRule: Optional
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            ModellingRule: Optional
+            Value: 2
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 100.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 44.400001525878906
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 108.4000015258789
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: Rotation
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 99.99800109863281
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.08699798583984
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 324.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 221.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
+  - Name: ConveyorBeltStraightTop1
+    Type: ScaleLayout
+    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+    Children:
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#e7d235"
+    - Name: BeltColor
+      Type: BaseDataVariableType
+      DataType: Color
+      Value: "#808285"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 99.99800109863281
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.08699798583984
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline.svg"
+    - Name: Fill
+      Type: Image
+      Children:
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/ConveyorBeltStraightTop_Fill.svg"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: DynamicColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#e7d235"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../FillColor"
+    - Name: Belt
+      Type: Rectangle
+      Children:
+      - Name: BorderColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#00000000"
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: -1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 9.68980598449707
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 0.0
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.62139129638672
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#808285"
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../BeltColor"
+    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay
+      Type: Image
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 99.99800109863281
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 109.08699798583984
+      - Name: Path
+        Type: BaseDataVariableType
+        DataType: ResourceUri
+        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay.svg"
+      - Name: Rectangle1
+        Type: Rectangle
+        Children:
+        - Name: BorderColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#000000"
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#ffffff"
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: CornerRadius
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: HitTestVisible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: Blink
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: false
+        - Name: MoveTarget
+          Type: NodePointer
+          DataType: NodeId
+          ModellingRule: Optional
+          Value: {"IdType":0,"Id":0,"Namespace":-1}
+          Children:
+          - Name: Kind
+            Type: PropertyType
+            DataType: NodeId
+            Value: {"Id":71,"Namespace":3}
+          - Name: NodeClass
+            Type: PropertyType
+            DataType: NodePointerNodeClass
+            ModellingRule: Optional
+            Value: 2
+        - Name: Visible
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          ModellingRule: Optional
+          Value: true
+        - Name: Opacity
+          Type: BaseVariableType
+          DataType: Float
+          ModellingRule: Optional
+          Value: 100.0
+        - Name: LeftMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 44.400001525878906
+        - Name: TopMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 108.4000015258789
+        - Name: RightMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: BottomMargin
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 0
+        - Name: Rotation
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 0.0
+    - Name: OriginalWidth
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 99.99800109863281
+    - Name: OriginalHeight
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.08699798583984
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 324.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 130.0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 90.0
   - Name: Label1
     Type: Label
     Children:
@@ -249,12 +1781,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 667.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 168.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -274,12 +1806,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 169.0
+      Value: 100.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 1
+      Value: 0
   - Name: Button1
     Type: Button
     Children:
@@ -292,12 +1824,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 161.0
+      Value: 556.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 89.0
+      Value: 60.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -480,12 +2012,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 466.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 89.0
+      Value: 60.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
@@ -668,12 +2200,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 301.0
+      Value: 667.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 260.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -693,12 +2225,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 169.0
+      Value: 100.0
     - Name: TextHorizontalAlignment
       Type: BaseVariableType
       DataType: TextHorizontalAlignment
       ModellingRule: Optional
-      Value: 1
+      Value: 0
   - Name: Button3
     Type: Button
     Children:
@@ -711,17 +2243,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 392.0
+      Value: 556.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 89.0
+      Value: 330.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 79.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -899,17 +2431,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 302.0
+      Value: 466.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 89.0
+      Value: 330.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 80.0
+      Value: 79.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1091,7 +2623,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 89.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1101,7 +2633,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 447.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
@@ -1152,7 +2684,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 100.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1162,12 +2694,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 320.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 210.0
+      Value: 90.0
     - Name: Appearance
       Type: BaseVariableType
       DataType: String
@@ -1213,7 +2745,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 80.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1223,12 +2755,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 223.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 250.0
+      Value: 169.0
     - Name: Appearance
       Type: BaseVariableType
       DataType: String
@@ -1258,6 +2790,11 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#000000"
+    - Name: Color
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ff0000"
   - Name: LED4
     Type: Led
     Children:
@@ -1274,7 +2811,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 110.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1284,12 +2821,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 301.0
+      Value: 320.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 210.0
+      Value: 339.0
     - Name: Appearance
       Type: BaseVariableType
       DataType: String
@@ -1335,7 +2872,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 89.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1345,12 +2882,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 301.0
+      Value: 447.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 260.0
     - Name: Appearance
       Type: BaseVariableType
       DataType: String
@@ -1392,17 +2929,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 71.0
+      Value: 330.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 290.0
+      Value: 150.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 90.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1599,17 +3136,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 301.0
+      Value: 330.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 290.0
+      Value: 240.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 90.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1789,141 +3326,6 @@ Children:
       DataType: Color
       ModellingRule: Optional
       Value: "#f4f375"
-  - Name: Rectangle3
-    Type: Rectangle
-    Children:
-    - Name: BorderColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#000000"
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      ModellingRule: Optional
-      Value: "#ffffff00"
-    - Name: BorderThickness
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 1.0
-    - Name: CornerRadius
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 10.0
-    - Name: HitTestVisible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: false
-    - Name: Blink
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: false
-    - Name: MoveTarget
-      Type: NodePointer
-      DataType: NodeId
-      ModellingRule: Optional
-      Value: {"IdType":0,"Id":0,"Namespace":-1}
-      Children:
-      - Name: Kind
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":71,"Namespace":3}
-      - Name: NodeClass
-        Type: PropertyType
-        DataType: NodePointerNodeClass
-        ModellingRule: Optional
-        Value: 2
-    - Name: Visible
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: Enabled
-      Type: BaseDataVariableType
-      DataType: Boolean
-      ModellingRule: Optional
-      Value: true
-    - Name: Opacity
-      Type: BaseVariableType
-      DataType: Float
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 511.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 30.0
-    - Name: RightMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: BottomMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 210.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 360.0
-    - Name: HorizontalAlignment
-      Type: BaseVariableType
-      DataType: HorizontalAlignment
-      ModellingRule: Optional
-      Value: 0
-    - Name: VerticalAlignment
-      Type: BaseVariableType
-      DataType: VerticalAlignment
-      ModellingRule: Optional
-      Value: 0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 0.0
-    - Name: Image1
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/MFGDAY-MI-Stacked.png"
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 29.0
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 204.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 150.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 150.0
   - Name: Button7
     Type: Button
     Children:
@@ -1936,17 +3338,17 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 532.0
+      Value: 13.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 89.0
+      Value: 149.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 168.0
+      Value: 79.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
@@ -1962,13 +3364,13 @@ Children:
       DataType: FontWeightEnum
       ModellingRule: Optional
       Value: 700
-    - Name: MouseDownEventHandler1
+    - Name: MouseClickEventHandler1
       Type: EventHandler
       Children:
       - Name: ListenEventType
         Type: PropertyType
         DataType: NodeId
-        Value: {"Id":14,"Namespace":3}
+        Value: {"Id":16,"Namespace":3}
       - Name: MethodsToCall
         Type: BaseObjectType
         Children:
@@ -2003,82 +3405,7 @@ Children:
               ValueRank: ScalarOrOneDimension
               Value: 0
       - Name: EventArguments
-        Type: MouseDownEvent
-        Children:
-        - Name: EventId
-          Type: PropertyType
-          DataType: ByteString
-          Value: ""
-        - Name: EventType
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceNode
-          Type: PropertyType
-          DataType: NodeId
-          Value: {"IdType":0,"Id":0,"Namespace":-1}
-        - Name: SourceName
-          Type: PropertyType
-          DataType: String
-          Value: ""
-        - Name: Time
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: ReceiveTime
-          Type: PropertyType
-          DataType: UtcTime
-          Value: "1601-01-01T00:00:00.0000000"
-        - Name: Message
-          Type: PropertyType
-          DataType: LocalizedText
-          Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        - Name: Severity
-          Type: PropertyType
-          DataType: UInt16
-          Value: 0
-    - Name: MouseUpEventHandler1
-      Type: EventHandler
-      Children:
-      - Name: ListenEventType
-        Type: PropertyType
-        DataType: NodeId
-        Value: {"Id":15,"Namespace":3}
-      - Name: MethodsToCall
-        Type: BaseObjectType
-        Children:
-        - Name: MethodContainer1
-          Type: BaseObjectType
-          Children:
-          - Name: ns=2;ObjectPointer
-            Type: NodePointer
-            DataType: NodeId
-            Value: {"Id":22,"Namespace":2}
-            Children:
-            - Name: Kind
-              Type: PropertyType
-              DataType: NodeId
-              Value: {"Id":58}
-          - Name: ns=2;Method
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "Toggle"
-          - Name: InputArguments
-            Type: BaseObjectType
-            Children:
-            - Name: VariableToModify
-              Type: BaseDataVariableType
-              DataType: VariablePointer
-              Description: {"NamespaceIndex":2,"TextId":"ToggleVariableToModifyDescription"}
-              Value: {"IdType":2,"Id":"8db82a087564c5f0cc7e07ba582e13af","Namespace":7}
-            - Name: ArrayIndex
-              Type: BaseDataVariableType
-              DataType: UInt32
-              Description: {"NamespaceIndex":2,"TextId":"ToggleArrayIndexDescription"}
-              ValueRank: ScalarOrOneDimension
-              Value: 0
-      - Name: EventArguments
-        Type: MouseUpEvent
+        Type: MouseClickEvent
         Children:
         - Name: EventId
           Type: PropertyType
@@ -2124,12 +3451,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 531.0
+      Value: 110.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 50.0
+      Value: 240.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -2167,12 +3494,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 530.0
+      Value: 111.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 180.0
+      Value: 60.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -2214,12 +3541,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 530.0
+      Value: 111.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 200.0
+      Value: 80.0
     - Name: FontWeight
       Type: BaseDataVariableType
       DataType: FontWeightEnum
@@ -2312,12 +3639,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 530.0
+      Value: 111.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 170.0
+      Value: 50.0
     - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
@@ -2353,2378 +3680,254 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 0.0
-  - Name: ConveyorRollerStraightTop1
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  - Name: Rectangle3
+    Type: Rectangle
     Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#000000"
     - Name: FillColor
       Type: BaseDataVariableType
       DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
       ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
+      Value: "#ff0000"
+    - Name: BorderThickness
       Type: BaseDataVariableType
       DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: CornerRadius
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: HitTestVisible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: MoveTarget
+      Type: NodePointer
+      DataType: NodeId
+      ModellingRule: Optional
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":71,"Namespace":3}
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        ModellingRule: Optional
+        Value: 2
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=8b64066d-2d36-84a0-e225-32184374bf9a}"
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
       ModellingRule: Optional
       Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 135.0
+      Value: 310.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
+      Value: 236.0
+    - Name: RightMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop2
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
+      Value: 0.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 47.0
+      Value: 10.0
     - Name: Height
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
+      Value: 80.0
+    - Name: HorizontalAlignment
       Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 189.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop3
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 243.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop5
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 351.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop6
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 405.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop7
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 459.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop8
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 568.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop9
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 514.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop10
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 352.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 444.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop11
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 460.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 444.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop13
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 406.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 444.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop14
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 515.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 444.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorRollerStraightTop15
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: RollerColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#cdcccc"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_outline.svg"
-    - Name: Roller
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Roller.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#cdcccc"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../RollerColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_roller_x5F_overlay.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorRollerStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 100.0
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.27999877929688
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/conveyor_x5F_topview_x5F_straight_x5F_frame_x5F_overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 100.0
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.27999877929688
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 569.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 444.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorBeltStraightTop1
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: BeltColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#808285"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorBeltStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: Belt
-      Type: Rectangle
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00000000"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 9.68980598449707
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.62139129638672
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#808285"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../BeltColor"
-    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 99.99800109863281
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.08699798583984
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 299.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 396.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: ConveyorBeltStraightTop2
-    Type: ScaleLayout
-    WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
-    Children:
-    - Name: FillColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#e7d235"
-    - Name: BeltColor
-      Type: BaseDataVariableType
-      DataType: Color
-      Value: "#808285"
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 47.0
-    - Name: Height
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 54.0
-    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Outline.svg"
-    - Name: Fill
-      Type: Image
-      Children:
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/ConveyorBeltStraightTop_Fill.svg"
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: DynamicColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#e7d235"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../FillColor"
-    - Name: Belt
-      Type: Rectangle
-      Children:
-      - Name: BorderColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#00000000"
-      - Name: BorderThickness
-        Type: BaseDataVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: -1.0
-      - Name: LeftMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 9.68980598449707
-      - Name: TopMargin
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 0.0
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 80.62139129638672
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: FillColor
-        Type: BaseDataVariableType
-        DataType: Color
-        Value: "#808285"
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: "../../BeltColor"
-    - Name: Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay
-      Type: Image
-      Children:
-      - Name: Width
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 99.99800109863281
-      - Name: Height
-        Type: BaseVariableType
-        DataType: Size
-        ModellingRule: Optional
-        Value: 109.08699798583984
-      - Name: Path
-        Type: BaseDataVariableType
-        DataType: ResourceUri
-        Value: "ns=7;%PROJECTDIR%/res/Equipment_x5F_Conveyor_x5F_Belt_x5F_Top_x5F_Overlay.svg"
-    - Name: OriginalWidth
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 99.99800109863281
-    - Name: OriginalHeight
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.08699798583984
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 299.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 443.0
-    - Name: Rotation
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 90.0
-  - Name: Label6
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Conveyor 1"}
-    - Name: LeftMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 630.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 410.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 18.0
-    - Name: FontFamily
-      Type: BaseDataVariableType
-      DataType: Font
-      ModellingRule: Optional
-      Value: ""
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
+      DataType: HorizontalAlignment
       ModellingRule: Optional
       Value: 0
-  - Name: Label7
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
-      ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Conveyor 2"}
-    - Name: LeftMargin
+    - Name: VerticalAlignment
       Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 631.0
-    - Name: TopMargin
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 458.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: FontSize
-      Type: BaseDataVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 18.0
-    - Name: FontFamily
-      Type: BaseDataVariableType
-      DataType: Font
-      ModellingRule: Optional
-      Value: ""
-    - Name: Width
-      Type: BaseVariableType
-      DataType: Size
-      ModellingRule: Optional
-      Value: 109.0
-    - Name: TextHorizontalAlignment
-      Type: BaseVariableType
-      DataType: TextHorizontalAlignment
+      DataType: VerticalAlignment
       ModellingRule: Optional
       Value: 0
-  - Name: Label8
-    Type: Label
-    Children:
-    - Name: Text
-      Type: BaseDataVariableType
-      DataType: LocalizedText
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
       ModellingRule: Optional
-      Value: {"LocaleId":"en-US","Text":"Exit Conveyor"}
+      Value: 0.0
+  - Name: Rectangle6
+    Type: Rectangle
+    Children:
+    - Name: BorderColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#000000"
+    - Name: FillColor
+      Type: BaseDataVariableType
+      DataType: Color
+      ModellingRule: Optional
+      Value: "#ff0000"
+    - Name: BorderThickness
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: CornerRadius
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+    - Name: HitTestVisible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: Blink
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: false
+    - Name: MoveTarget
+      Type: NodePointer
+      DataType: NodeId
+      ModellingRule: Optional
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: {"Id":71,"Namespace":3}
+      - Name: NodeClass
+        Type: PropertyType
+        DataType: NodePointerNodeClass
+        ModellingRule: Optional
+        Value: 2
+    - Name: Visible
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "{NodeId:ns=7;g=a1d15372-93f4-cb76-1fe3-a5e3808bb8c3}"
+    - Name: Enabled
+      Type: BaseDataVariableType
+      DataType: Boolean
+      ModellingRule: Optional
+      Value: true
+    - Name: Opacity
+      Type: BaseVariableType
+      DataType: Float
+      ModellingRule: Optional
+      Value: 100.0
     - Name: LeftMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 20.0
+      Value: 324.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 410.0
-    - Name: FontWeight
-      Type: BaseDataVariableType
-      DataType: FontWeightEnum
-      ModellingRule: Optional
-      Value: 700
-    - Name: FontSize
-      Type: BaseDataVariableType
+      Value: 130.0
+    - Name: RightMargin
+      Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 18.0
-    - Name: FontFamily
-      Type: BaseDataVariableType
-      DataType: Font
+      Value: 0.0
+    - Name: BottomMargin
+      Type: BaseVariableType
+      DataType: Size
       ModellingRule: Optional
-      Value: ""
+      Value: 0.0
     - Name: Width
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 109.0
-    - Name: TextHorizontalAlignment
+      Value: 100.0
+    - Name: Height
       Type: BaseVariableType
-      DataType: TextHorizontalAlignment
+      DataType: Size
       ModellingRule: Optional
-      Value: 2
+      Value: 6.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 0
+    - Name: Rotation
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 0.0
+  - Name: Image1
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=7;%PROJECTDIR%/MFGDAY-MI-Stacked.png"
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 340.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 150.0
